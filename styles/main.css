@@ -172,5 +172,62 @@ body{
   .footer-links a:hover {
     color: #ddd;
   }
+  /* Sticky Header */
+.site-header {
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    /* Adjust header layout */
+    .site-header .container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .site-header .logo {
+      margin-bottom: 10px;
+    }
+  
+    /* Hero Section */
+    .hero {
+      padding: 50px 0;
+    }
+  
+    .hero-content h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero-content p {
+      font-size: 1rem;
+    }
+  
+    .cta-button {
+      padding: 1rem;
+      font-size: 1rem;
+    }
+  
+    /* Feature Cards */
+    .features {
+      flex-direction: column;
+      gap: 2rem;
+    }
+  
+    .feature-card {
+      flex: none;
+      width: 100%;
+    }
+  
+    /* Footer */
+    .footer-links {
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+
+  
   
     
