@@ -104,6 +104,40 @@ body{
     margin-top: 20px;
     display: inline-block;
   }
+  /* Feature Section */
+.features {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .feature-card {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+  }
   
   .cta-button:hover {
     background-color: #1a4c7b;
